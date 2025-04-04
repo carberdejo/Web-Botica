@@ -14,7 +14,6 @@
     <fullyQualifiedTypeName name="entidades.DetalleVenta"/>
     <fullyQualifiedTypeName name="servlets.VentaServlet"/>
     <fullyQualifiedTypeName name="entidades.Venta"/>
-    <fullyQualifiedTypeName name="java.lang.Double"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="interfaces.ProductoInterface"/>
     <fullyQualifiedTypeName name="modelo.ProductoModelo"/>
@@ -35,4 +34,6 @@
     <fullyQualifiedTypeName name="jakarta.servlet.http.HttpSession"/>
     <fullyQualifiedTypeName name="interfaces.ClienteInterface"/>
     <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="java.lang.Math"/>
 </qualifiedTypeNameHistroy>

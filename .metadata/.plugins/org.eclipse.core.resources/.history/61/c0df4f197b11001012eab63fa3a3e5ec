@@ -121,9 +121,8 @@ public class Producto {
 	
 	//METODOS DE OPERACION
 	public double precioDSCT() {
-		double dsct = Double.parseDouble(precio)*Double.parseDouble(descuento)/100;
-		double precioDsct = Double.parseDouble(precio)-dsct;
-		return Math.round(precioDsct*100.0)/100.0;
+	double dsct = Double.parseDouble(precio)*Double.parseDouble(descuento)/100;
+	return Double.parseDouble(precio)-dsct;
 	}
 
 	public String getIdProveedor() {
@@ -134,5 +133,11 @@ public class Producto {
 		this.idProveedor = idProveedor;
 	}
 	
+	public String precioDSCTfixed() {
+	double dsct = Double.parseDouble(precio)*Double.parseDouble(descuento)/100;
+	 double resultado = Double.parseDouble(precio) - dsct;
+	 DecimalFormat df = new DecimalFormat("#.00");
+	 return df.format(resultado);
+	}
 	
 }

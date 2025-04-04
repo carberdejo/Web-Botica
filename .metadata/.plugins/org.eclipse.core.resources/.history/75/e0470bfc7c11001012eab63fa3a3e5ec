@@ -134,5 +134,11 @@ public class Producto {
 		this.idProveedor = idProveedor;
 	}
 	
+	public String precioDSCTfixed() {
+		//double dsct = Double.parseDouble(precio)*Double.parseDouble(descuento)/100;
+		//double resultado = Double.parseDouble(precio) - dsct;
+		DecimalFormat df = new DecimalFormat("#.00");
+	 	return df.format(precioDSCT());
+	}
 	
 }
